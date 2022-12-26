@@ -1,6 +1,6 @@
 # AR visualization with ArUco markers 
 ## Introduction
-Current e-book readers in the market like traditional paperbacks, do not provide chapter recap. Getting a chapter recap is vital to catching up with the current chapter for the readers. It allows readers to get reacquainted to the characters that are reintroduced into the scenes or some contextual knowledge or backstory for the readers to follow through the current series of events. In this paper, we propose using named entity recognition model and text-to-text LongT5 transformer trained with BOOKSUM dataset to implement a summarizer that is capable of providing a list of characters and locations that are present in the chapter and also a plot summary of chapter.
+In this project, we will develop an application that utilizes ArUco markers to project marker-based AR visualization, image warnings, and real-time step-by-step video demonstration that will reduce or eliminate the use of paper manuals and warnings. An ArUco marker is a fiducial marker that composed with an inner binary matrix which determines its identifier and an outer black border which assists with fast detection in the image. Pose estimation is a key process of augmented reality and it is performed based on ArUco markers.For 3D visualization or image projection, we will use one ArUco marker to encode the media data, and for video renderings, we will use four ArUco markers. The four corners of each ArUco marker, called the marker coordinate system, can be used as the points to overlay the media.
 
 ### Main functionalities
 Produce a chapter recap with the following information
@@ -12,18 +12,16 @@ Produce a chapter recap with the following information
 ![](https://github.com/francelow/ARvisualize/blob/main/pipeline.png)  
 
 ## Dependencies
+
 ### Input Data
-- Alice’s Adventures in Wonderland by Lewis Carroll (obtained from NLTK Gutenberg Corpus).
-### Training DataSet
-- BOOKSUM
-  * A collection of dataset for long-form narrative summarized jointly developed by Salesforce Research and Yale University.
-  * Covers literature domain such as novels, plays and stories and human written summaries in three levels of details (paragraphs, chapter, book).
-  * Readily available on the HuggingFace platform
-  
+- ArUco markers (For more info: https://www.sciencedirect.com/science/article/abs/pii/S0031320314000235)
+
+### Hardware
+- Webcam  
+
 ### Software
-- Natural Language Toolkit (NLTK)
-- Flair Models
-- HuggingFace
+- OpenCV 
+- Python 3
 
 ## Demo
 
