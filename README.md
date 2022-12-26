@@ -8,6 +8,9 @@ Produce a chapter recap with the following information
 - List of locations of the scenes in each chapter
 - A plot summary of each chapter
 
+### Pipeline
+![](https://github.com/francelow/ARvisualize/blob/main/pipeline.png)  
+
 ## Dependencies
 ### Input Data
 - Alice’s Adventures in Wonderland by Lewis Carroll (obtained from NLTK Gutenberg Corpus).
