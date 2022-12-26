@@ -24,7 +24,7 @@ Produce a chapter recap with the following information
 
 ## Demo
 
-* Overlay an image on top of the ArUco markers
+* Overlay an image on top of the ArUco markers  
 ![](https://github.com/francelow/ARvisualize/blob/main/visualize_img.gif)  
 * Overlay a video on top of the ArUco markers 
 ![](https://github.com/francelow/ARvisualize/blob/main/visualize_video.gif)  
